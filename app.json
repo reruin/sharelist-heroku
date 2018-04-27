@@ -1,0 +1,14 @@
+{
+  "name": "ShareList",
+  "description": "deploy ShareList to Heroku",
+  "keywords": ["ShareList","GoogleDrive","OneDrive"],
+  "env": {
+    "CONFIG": {
+       "description": "配置文件(JSON字符串 或 http远程文件)",
+       "value": ""
+     }
+  },
+  "website": "https://github.com/reruin/sharelist-heroku",
+  "repository": "https://github.com/reruin/sharelist-heroku",
+  "stack": "container"
+ }
