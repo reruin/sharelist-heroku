@@ -1,4 +1,4 @@
-FROM reruin/sharelist
+FROM reruin/sharelist:next
 MAINTAINER reruin <reruin@gmail.com>
 
 ENV PORT 33001
