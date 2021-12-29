@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: sharelist
-        image: reruin/sharelist:next
+        image: okteto.dev/sharelist:next
         ports:
         - containerPort: 33001
         env:

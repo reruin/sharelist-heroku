@@ -1,3 +1,3 @@
 deploy:
-  - okteto build -t reruin/sharelist:next
+  - okteto build -t okteto.dev/sharelist:next
   - kubectl apply -f k8s
