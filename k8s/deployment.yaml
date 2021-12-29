@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sharelist
+spec:
+  selector:
+    matchLabels:
+      app: sharelist
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: sharelist
+    spec:
+      containers:
+      - name: sharelist
+        image: reruin/sharelist:next
+        ports:
+        - containerPort: 33001
+        env:
+        - name: PORT
+          value: "33001"
