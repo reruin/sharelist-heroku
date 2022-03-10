@@ -11,4 +11,3 @@ spec:
     port: 33001
   selector:
     app: sharelist
-
