@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: sharelist
   annotations:
-    dev.okteto.com/auto-ingress: "domain"
+    dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
@@ -11,3 +11,4 @@ spec:
     port: 33001
   selector:
     app: sharelist
+
